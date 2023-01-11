@@ -64,7 +64,7 @@ class Solution{
     //         }
     //     }
         // return mat;
-         int delrow[4]={-1,0,1,0};
+    int delrow[4]={-1,0,1,0};
     int delcol[4]={0,-1,0,1};
     void dfs(int r,int c,vector<vector<int>> &vis,int n,int m,vector<vector<char>> &grid){
         vis[r][c]=1;
